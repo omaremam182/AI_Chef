@@ -29,7 +29,7 @@ The system allows users to input ingredients they have at home and receive struc
 
 ## Project Structure
 
-
+ططط
 project
 │
 ├── app.py
@@ -46,7 +46,7 @@ project
 │   ├── style.css
 │   └── script.js
 └── README.md
-
+ططط
 ---
 
 ## How It Works
