@@ -30,19 +30,19 @@ The system allows users to input ingredients they have at home and receive struc
 ## Project Structure
 
 
-project/ /n
-│
-├── app.py /n
+project/
+├── app.py
+
 ├── agents/
 │ └── CookingAgent.py
-│
+
 ├── templates/
 │ └── index.html
-│
+
 ├── static/
 │ ├── style.css
 │ └── script.js
-│
+
 ├── venv/
 ├── requirements.txt
 └── README.md
