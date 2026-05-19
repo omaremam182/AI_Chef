@@ -66,38 +66,72 @@ project/
 
 ```bash
 git clone https://github.com/omaremam182/AI_Chef.git
-cd chef-ai
-2. Create virtual environment
+cd AI_Chef
+```
+
+---
+
+### 2. Create virtual environment
+
+```bash
 python -m venv venv
+```
 
 Activate the environment:
 
-Windows:
-
+**Windows:**
+```bash
 venv\Scripts\activate
+```
 
-Linux / Mac:
-
+**Linux / Mac:**
+```bash
 source venv/bin/activate
-3. Install dependencies
+```
+
+---
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4. Start Flask server
+---
+
+### 4. Start Flask server
+
+```bash
 python app.py
+```
 
-Then open:
+Then open in your browser:
 
+```
 http://127.0.0.1:5000
-Environment Variables
+```
 
-If needed, create a .env file for configuration. This file should not be committed to version control.
+---
 
-Future Improvements
-Add voice input support
-Save favorite recipes
-Add user authentication
-Deploy the application to cloud platforms
-Improve prompt engineering for more accurate recipes
-License
+## Environment Variables
+
+If needed, create a `.env` file in the project root for configuration settings such as API keys or environment-specific variables.
+
+**Important:**  
+This file should not be committed to version control.
+
+---
+
+## Future Improvements
+
+- Add voice input support  
+- Save favorite recipes  
+- Add user authentication  
+- Deploy the application to cloud platforms  
+- Improve prompt engineering for more accurate recipe generation  
+
+---
+
+## License
 
 This project is open-source and available under the MIT License.
