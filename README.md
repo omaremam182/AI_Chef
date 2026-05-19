@@ -30,27 +30,22 @@ The system allows users to input ingredients they have at home and receive struc
 ## Project Structure
 
 
-project/
+project
+│
 ├── app.py
-
-├── agents/
-
-   └── CookingAgent.py
-
-├── templates/
-   └── index.html
-
-├── static/
-   ├── style.css
-   
-   └── script.js
-
-├── venv/
-
 ├── requirements.txt
-
+├── README.md
+│
+├── agents
+│   └── CookingAgent.py
+│
+├── templates
+│   └── index.html
+│
+├── static
+│   ├── style.css
+│   └── script.js
 └── README.md
-
 
 ---
 
@@ -69,7 +64,7 @@ project/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/chef-ai.git
+git clone https://github.com/omaremam182/AI_Chef.git
 cd chef-ai
 2. Create virtual environment
 python -m venv venv
