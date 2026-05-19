@@ -30,9 +30,9 @@ The system allows users to input ingredients they have at home and receive struc
 ## Project Structure
 
 
-project/
+project/ /n
 │
-├── app.py
+├── app.py /n
 ├── agents/
 │ └── CookingAgent.py
 │
