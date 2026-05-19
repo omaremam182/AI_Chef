@@ -34,17 +34,21 @@ project/
 ├── app.py
 
 ├── agents/
-│ └── CookingAgent.py
+
+   └── CookingAgent.py
 
 ├── templates/
-│ └── index.html
+   └── index.html
 
 ├── static/
-│ ├── style.css
-│ └── script.js
+   ├── style.css
+   
+   └── script.js
 
 ├── venv/
+
 ├── requirements.txt
+
 └── README.md
 
 
