@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Chef AI</title>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='style.css') }}"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="hero">
+				<h1>🍳 Chef AI Assistant</h1>
+
+				<p>
+					Enter the ingredients available in your fridge and get smart meal
+					suggestions instantly.
+				</p>
+			</div>
+
+			<div class="card">
+				<textarea
+					id="ingredients"
+					placeholder="Example:
+eggs
+potatoes
+cheese
+tomatoes"
+				></textarea>
+
+				<button id="generateBtn">Generate Meals</button>
+			</div>
+
+			<div class="result-card">
+				<h2>Suggested Meals</h2>
+
+				<div id="loading">Generating ideas...</div>
+
+				<div id="result"></div>
+			</div>
+		</div>
+
+		<script src="{{ url_for('static', filename='script.js') }}"></script>
+	</body>
+</html>

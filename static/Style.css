@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(135deg, #0f172a, #1e293b);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	max-width: 900px;
+}
+
+.hero {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 15px;
+}
+
+.hero p {
+	color: #cbd5e1;
+	font-size: 18px;
+}
+
+.card {
+	background: #1e293b;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+	margin-bottom: 25px;
+}
+
+textarea {
+	width: 100%;
+	height: 180px;
+	border: none;
+	outline: none;
+	resize: none;
+	border-radius: 15px;
+	padding: 20px;
+	font-size: 18px;
+	background: #0f172a;
+	color: white;
+	margin-bottom: 20px;
+}
+
+textarea::placeholder {
+	color: #94a3b8;
+}
+
+button {
+	width: 100%;
+	padding: 16px;
+	border: none;
+	border-radius: 14px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	background: linear-gradient(135deg, #f97316, #ea580c);
+	color: white;
+	transition: 0.3s;
+}
+
+button:hover {
+	transform: translateY(-2px);
+	opacity: 0.9;
+}
+
+.result-card {
+	background: #1e293b;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.result-card h2 {
+	margin-bottom: 20px;
+}
+
+#loading {
+	display: none;
+	margin-bottom: 15px;
+	color: #facc15;
+	font-weight: bold;
+}
+
+#result {
+	white-space: normal;
+	line-height: 1.8;
+	color: #e2e8f0;
+}
+
+/* Tables */
+#result table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	background: #0f172a;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#result th,
+#result td {
+	border: 1px solid #334155;
+	padding: 10px;
+	text-align: left;
+}
+
+#result th {
+	background: #1e293b;
+	color: #f1f5f9;
+}
+
+/* Bold text */
+#result strong {
+	color: #facc15;
+}
+
+/* Headings */
+#result h1,
+#result h2,
+#result h3 {
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+/* Lists */
+#result ul {
+	padding-left: 20px;
+}
+
+#result {
+	white-space: normal;
+	line-height: 1.8;
+	color: #e2e8f0;
+}
+
+/* RTL support */
+#result[dir="rtl"] {
+	text-align: right;
+	direction: rtl;
+	font-family: "Tahoma", Arial, sans-serif;
+}
+
+#result[dir="ltr"] {
+	text-align: left;
+	direction: ltr;
+}
+
+#result[dir="rtl"] table {
+	direction: rtl;
+}
+
+#result[dir="rtl"] th,
+#result[dir="rtl"] td {
+	text-align: right;
+}
